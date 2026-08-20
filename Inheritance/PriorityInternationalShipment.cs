@@ -7,7 +7,7 @@ namespace OOP_Assignment_3.Inheritance
     internal class PriorityInternationalShipment : InternationalShipment
     {
         #region Question 2 Constructor Chaining
-        public PriorityInternationalShipment(string? trackingCode, string? description, decimal weight, decimal deliveryFee, DeliveryAddress destination, string? destinationCountry, decimal customsFee)
+        public PriorityInternationalShipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination, string destinationCountry, decimal customsFee)
             : base(trackingCode, description, weight, deliveryFee, destination, destinationCountry, customsFee)
         {
         }

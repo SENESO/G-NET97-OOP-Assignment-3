@@ -6,11 +6,32 @@ namespace OOP_Assignment_3.Inheritance
 {
     internal class InternationalShipment : Shipment
     {
-        public string? DestinationCountry { get; set; }
-        public decimal CustomsFee { get; set; }
+        private string destinationCountry;
+        public string DestinationCountry
+        {
+            get => destinationCountry;
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException("Destination country is required.", nameof(value));
+                destinationCountry = value;
+            }
+        }
+        
+        private decimal customsFee;
+        public decimal CustomsFee
+        {
+            get => customsFee;
+            set
+            {
+                if (value < 0m)
+                    throw new ArgumentOutOfRangeException(nameof(value), "Customs fee cannot be negative.");
+                customsFee = value;
+            }
+        }
 
         #region Question 2 Constructor Chaining
-        public InternationalShipment(string? trackingCode, string? description, decimal weight, decimal deliveryFee, DeliveryAddress destination, string? destinationCountry, decimal customsFee)
+        public InternationalShipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination, string destinationCountry, decimal customsFee)
             : base(trackingCode, description, weight, deliveryFee, destination)
         {
             DestinationCountry = destinationCountry;

@@ -6,10 +6,20 @@ namespace OOP_Assignment_3.Inheritance
 {
     internal class ExpressShipment : Shipment
     {
-        public decimal ExtraFee { get; set; }
+        private decimal extraFee;
+        public decimal ExtraFee
+        {
+            get => extraFee;
+            set
+            {
+                if (value < 0m)
+                    throw new ArgumentOutOfRangeException(nameof(value), "Extra fee cannot be negative.");
+                extraFee = value;
+            }
+        }
 
         #region Question 2 Constructor Chaining
-        public ExpressShipment(string? trackingCode, string? description, decimal weight, decimal deliveryFee, DeliveryAddress destination, decimal extraFee)
+        public ExpressShipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination, decimal extraFee)
             : base(trackingCode, description, weight, deliveryFee, destination)
         {
             ExtraFee = extraFee;

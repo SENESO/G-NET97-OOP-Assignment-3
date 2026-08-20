@@ -8,7 +8,7 @@ namespace OOP_Assignment_3.Inheritance
     internal sealed class CompletedShipment : Shipment
     {
         #region Question 2 Constructor Chaining
-        public CompletedShipment(string? trackingCode, string? description, decimal weight, decimal deliveryFee, DeliveryAddress destination)
+        public CompletedShipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination)
             : base(trackingCode, description, weight, deliveryFee, destination)
         {
         }

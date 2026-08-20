@@ -7,7 +7,7 @@ namespace OOP_Assignment_3.Inheritance
     internal class StandardShipment : Shipment
     {
         #region Question 2 Constructor Chaining
-        public StandardShipment(string? trackingCode, string? description, decimal weight, decimal deliveryFee, DeliveryAddress destination)
+        public StandardShipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination)
             : base(trackingCode, description, weight, deliveryFee, destination)
         {
         }

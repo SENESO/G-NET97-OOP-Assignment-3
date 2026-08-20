@@ -4,7 +4,17 @@ namespace OOP_Assignment_3.Class
 {
     internal class DeliveryCenter
     {
-        public string? CenterName { get; set; }
+        private string centerName;
+        public string CenterName
+        {
+            get => centerName;
+            set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                    throw new ArgumentException("Center name is required.", nameof(value));
+                centerName = value;
+            }
+        }
 
         #region Question 5 Class Relationships
         public Driver? Driver { get; set; }
@@ -15,8 +25,11 @@ namespace OOP_Assignment_3.Class
 
         public int Count => currentCount;
 
-        public DeliveryCenter(string? centerName)
+        public DeliveryCenter(string centerName)
         {
+            if (string.IsNullOrWhiteSpace(centerName))
+                throw new ArgumentException("Center name is required.", nameof(centerName));
+                
             CenterName = centerName;
             shipments = new Shipment[20];
             currentCount = 0;
