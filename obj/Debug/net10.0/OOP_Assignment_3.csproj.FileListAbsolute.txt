@@ -1,0 +1,14 @@
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\bin\Debug\net10.0\OOP_Assignment_3.exe
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\bin\Debug\net10.0\OOP_Assignment_3.deps.json
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\bin\Debug\net10.0\OOP_Assignment_3.runtimeconfig.json
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\bin\Debug\net10.0\OOP_Assignment_3.dll
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\bin\Debug\net10.0\OOP_Assignment_3.pdb
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\obj\Debug\net10.0\OOP_Assignment_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\obj\Debug\net10.0\OOP_Assignment_3.AssemblyInfoInputs.cache
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\obj\Debug\net10.0\OOP_Assignment_3.AssemblyInfo.cs
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\obj\Debug\net10.0\OOP_Assignment_3.csproj.CoreCompileInputs.cache
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\obj\Debug\net10.0\OOP_Assignment_3.dll
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\obj\Debug\net10.0\refint\OOP_Assignment_3.dll
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\obj\Debug\net10.0\OOP_Assignment_3.pdb
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\obj\Debug\net10.0\OOP_Assignment_3.genruntimeconfig.cache
+D:\lenovo-u1-tool-master\CPro\G-NET97-OOP-Assignment#3\obj\Debug\net10.0\ref\OOP_Assignment_3.dll
